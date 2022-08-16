@@ -48,7 +48,7 @@ for i in range(3):
     else:
         sum = x + y + z
     print("Calculated sum is ", result) # the bug was in the operators in the if statment''' 
-# Task 6
+'''# Task 6
 x = int(input("First number: "))
 y = int(input("Second number: "))
 
@@ -57,3 +57,14 @@ result = x + y
 if result >= 15 and result <= 20:
     result = 20 
 print("Calculated sum is ", result)#The problem was in the operator'''   
+#Task 7
+a = input("First value: ")
+b = input("Second value: ")
+
+print("Before swapping: a =", a, " ,b =",b)
+
+temp = a
+a = b
+b=temp
+
+print("After swapping: a =", a, " ,b =" ,b)
