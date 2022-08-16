@@ -27,7 +27,13 @@ print("Sum =", sum)'''
     print(x)'''
 '''for i in range(0,4):
     print("This is loop number " + format(int(i+1)) )#Loop nr2'''
-x = 10
+'''x = 10
 while x > 0:
     print(x)
-    x -= 1 
+    x -= 1 # loop nr 3'''
+countdown=5
+while countdown:
+    print(f"{countdown}")
+    countdown -= 1
+else:
+    print("Start!") #loop nr4
