@@ -37,7 +37,7 @@ while countdown:
     countdown -= 1
 else:
     print("Start!") #loop nr4'''
-# Task 5
+'''# Task 5
 for i in range(3):
     x = input("First number: ")
     y = input("Second number: ")
@@ -47,4 +47,13 @@ for i in range(3):
         result = 0
     else:
         sum = x + y + z
-    print("Calculated sum is ", result) # the bug was in the operators in the if statment 
+    print("Calculated sum is ", result) # the bug was in the operators in the if statment''' 
+# Task 6
+x = int(input("First number: "))
+y = int(input("Second number: "))
+
+result = x + y
+
+if result >= 15 and result <= 20:
+    result = 20 
+print("Calculated sum is ", result)#The problem was in the operator'''   
