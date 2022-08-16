@@ -31,9 +31,20 @@ print("Sum =", sum)'''
 while x > 0:
     print(x)
     x -= 1 # loop nr 3'''
-countdown=5
+'''countdown=5
 while countdown:
     print(f"{countdown}")
     countdown -= 1
 else:
-    print("Start!") #loop nr4
+    print("Start!") #loop nr4'''
+# Task 5
+for i in range(3):
+    x = input("First number: ")
+    y = input("Second number: ")
+    z = input("Third number: ")
+
+    if x == y or y != z:
+        result = 0
+    else:
+        sum = x + y + z
+    print("Calculated sum is ", result) # the bug was in the operators in the if statment 
