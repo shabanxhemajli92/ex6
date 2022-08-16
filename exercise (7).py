@@ -57,7 +57,7 @@ result = x + y
 if result >= 15 and result <= 20:
     result = 20 
 print("Calculated sum is ", result)#The problem was in the operator'''   
-#Task 7
+'''#Task 7
 a = input("First value: ")
 b = input("Second value: ")
 
@@ -67,4 +67,15 @@ temp = a
 a = b
 b=temp
 
-print("After swapping: a =", a, " ,b =" ,b)
+print("After swapping: a =", a, " ,b =" ,b)'''
+#Task 9
+x = input("Type your value:" )
+
+if x == 0:
+    x = False
+elif x == 1:
+    x = True
+else:
+    pass
+
+print("Your entered value is now ",x) 
