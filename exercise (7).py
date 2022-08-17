@@ -68,7 +68,15 @@ a = b
 b=temp
 
 print("After swapping: a =", a, " ,b =" ,b)'''
-#Task 9
+#Task 8
+x = float(input("First number: "))
+y = float(input("Second number: "))
+z = float(input("Third number: "))
+
+print("The maximum value is ", max(x, y ,z))
+print("The minimum value is ", min(x, y ,z))
+
+'''#Task 9
 x = input("Type your value:" )
 
 if x == 0:
@@ -78,4 +86,4 @@ elif x == 1:
 else:
     pass
 
-print("Your entered value is now ",x) 
+print("Your entered value is now ",x)''' 
