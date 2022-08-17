@@ -1,13 +1,19 @@
 '''# Task 1
-for num in range(0, 100):
-    if num % 15 is 0:
-        print("FizzBuzz")
-    elif num % 3 is 0:
-        print("Fizz")
-    elif num % 5 is 0:
-        print("Buzz")
-    else:
-        print(num)'''
+three_mul = 'fizz'
+five_mul = 'buzz'
+num1 = 3
+num2 = 5 
+max_num = 100
+   
+for i in range(1,max_num):
+    # % or modulo division gives you the remainder 
+    
+    if i%num1 == 0 and i%num2==0:
+        print(i, three_mul+five_mul)
+    elif i%num1 == 0:
+        print(i, five_mul)
+    elif i%num2 == 0:
+        print(i,five_mul)'''
 '''# Task 2 
 n = 5
 number = 1
