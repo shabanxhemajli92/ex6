@@ -68,13 +68,13 @@ a = b
 b=temp
 
 print("After swapping: a =", a, " ,b =" ,b)'''
-#Task 8
+'''#Task 8
 x = float(input("First number: "))
 y = float(input("Second number: "))
 z = float(input("Third number: "))
 
 print("The maximum value is ", max(x, y ,z))
-print("The minimum value is ", min(x, y ,z))
+print("The minimum value is ", min(x, y ,z))'''
 
 '''#Task 9
 x = input("Type your value:" )
@@ -87,3 +87,13 @@ else:
     pass
 
 print("Your entered value is now ",x)''' 
+#Task 10
+x = int(input("First number: "))
+y = int(input("Second number: "))
+
+if x % y == 0:
+    print("First number is divisible by second number, result =", x // y)
+elif y % x == 0:
+    print("Second number is divisible by first number, result =", y // x)
+else:
+    print("Numbers are non divisible!")
